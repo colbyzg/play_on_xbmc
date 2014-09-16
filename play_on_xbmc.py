@@ -12,7 +12,7 @@ xbmc_password = "xbmc"
 def main(v_id):
 	send_to_xbmc(v_id)
 	j = get_title(v_id)
-	print("Playing '{}'".format(j["data"]["title"]))
+	print("Playing '{}'".format(j["data"]["title"].encode('utf8')))
 
 def parse_id(url):
 	parsed_url = urlparse.urlparse(url)
