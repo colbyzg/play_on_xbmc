@@ -2,7 +2,7 @@ play_on_xbmc
 ======
 
 # Description:
-Short script to send YouTube videos to an XBMC instance. I can take a YouTube URL or video ID.
+Short script to send YouTube videos to an XBMC instance. It can take a YouTube URL or video ID.
 
 # Without URL or video ID:
 <pre>
